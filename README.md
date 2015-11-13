@@ -58,7 +58,7 @@ Adhere to the following formatting when providing a JSON file as your parameters
 }
 ```
 
-These parameters result in a [stream](https://www.soundcloud.com/srsbusiness/sets/favorite-artists) of some of my favorite artists.
+These parameters result in a [stream](https://www.soundcloud.com/ssalka/sets/favorite-artists) of some of my favorite artists.
 
 The `filters` object is optional, as this was used in the example to filter out tracks pertaining to samples/clips (<15 sec) and mixes/podcasts (>15 min).
 
