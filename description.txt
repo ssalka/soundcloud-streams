@@ -1,0 +1,1 @@
+Stream Properties<br /><br />Users Included:<br />@{}<br /><br />Last updated on {}<br />Generated using soundcloud-streams by @srsbusiness<br />http://www.github.com/ssalka/soundcloud-streams
