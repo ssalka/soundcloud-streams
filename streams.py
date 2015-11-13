@@ -36,9 +36,7 @@ def readfile(file):
 
 def new_playlist(name, share='public'):
 	print 'Creating new playlist...'
-	client.post('/playlists', playlist={'title': name,
-										'genre': 'stream',
-										'sharing': share})
+	client.post('/playlists', playlist={'title': name, 'genre': 'stream', 'sharing': share})
 	return client.get('/me/playlists', limit=1)[0]
 
 
@@ -74,9 +72,7 @@ def get_tracks(users, flt):
 	tracks = []
 	date = flt['cutoff']
 	for user in users:
-		matches = client.get('/users/%s/tracks' % user,
-							 duration=flt['duration'],
-							 created_at=date)
+		matches = client.get('/users/%s/tracks' % user, duration=flt['duration'], created_at=date)
 		tracks.extend(matches)
 	if not tracks:
 		if new:
@@ -94,8 +90,7 @@ def get_tracks(users, flt):
 
 def write_description(users):
 	with open('description.txt') as file:
-		return file.readline().format('<br />@'.join(users),
-									  datetime.now().strftime('%A, %B %d'))
+		return file.readline().format('<br />@'.join(users), datetime.now().strftime('%A, %B %d'))
 
 
 def update(pl, tracks, body):
@@ -108,9 +103,7 @@ def update(pl, tracks, body):
 		old_IDs = [track['id'] for track in pl.tracks[:limit]]
 		new_IDs.extend(old_IDs)
 	post_IDs = map(lambda id: dict(id=id), new_IDs)
-	client.put(pl.uri, playlist={'title': stream['Title'],
-								 'tracks': post_IDs,
-								 'description': body})
+	client.put(pl.uri, playlist={'title': stream['Title'], 'tracks': post_IDs, 'description': body})
 
 
 def success():
