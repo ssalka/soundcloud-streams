@@ -12,7 +12,7 @@ One feature I find lacking in SoundCloud is the ability to filter my stream base
 
 The script requires the following to run:
 
-* SoundCloud OAuth2 credentials (`register an app`_. if you have not yet done so)
+* SoundCloud OAuth2 credentials ([register an app](http://soundcloud.com/you/apps/) if you have not yet done so)
 * A set of parameters to filter by, given in JSON format
 
 To create (or update) a stream, simply fill out the `inputs.py` file with the above, and set the given variables to your liking:
@@ -26,8 +26,6 @@ To create (or update) a stream, simply fill out the `inputs.py` file with the ab
 | `public` | Boolean | Choose whether stream will be made public |
 
 Then, run `streams.py` to create/update your stream. Due to limitations on SoundCloud playlists, streams are truncated to 200 tracks.
-
-.. _register an app: http://soundcloud.com/you/apps/
 
 ## Example
 
@@ -89,6 +87,4 @@ soundcloud-streams was written by [Steven Salka](https://www.linkedin.com/in/ssa
 
 ## License
 
-soundcloud-streams is published under a `BSD License`_.
-
-.. _`BSD License`: https://www.github.com/ssalka/soundcloud-streams/LICENSE
+soundcloud-streams is published under a [BSD License](https://www.github.com/ssalka/soundcloud-streams/LICENSE).
