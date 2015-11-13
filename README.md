@@ -17,7 +17,7 @@ The script requires the following to run:
 
 To create (or update) a stream, simply fill out the `inputs.py` file with the above, and set the given variables to your liking:
 
-| Variable | Type | Purpose |
+| Variable | Type | Description |
 | --- | --- | --- |
 | `new` | Boolean | `True`: Create new stream<br />`False`: Update existing stream |
 | `goto` | Boolean | Determines whether stream will be opened in browser upon completion |
@@ -83,8 +83,8 @@ Initial release
 
 ## Credits
 
-soundcloud-streams was written by [Steven Salka](https://www.linkedin.com/in/ssalka).
+soundcloud-streams was written by [Steven Salka](https://www.linkedin.com/in/ssalka)
 
 ## License
 
-soundcloud-streams is published under a [BSD License](https://www.github.com/ssalka/soundcloud-streams/LICENSE).
+soundcloud-streams is published under a [BSD License](https://github.com/ssalka/soundcloud-streams/blob/master/LICENSE)
