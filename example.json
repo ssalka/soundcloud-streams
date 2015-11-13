@@ -1,0 +1,24 @@
+{
+  "users": [
+    "feedme",
+    "fuckmylife",
+    "prettylights",
+    "dillonfrancis",
+    "chrome-sparks",
+    "spor",
+    "flume",
+    "gramatik",
+    "koan-sound",
+    "nero",
+    "rudebrat",
+    "seamlessr",
+    "seven-lions",
+    "xilent"
+  ],
+  "filters": {
+    "duration": {
+      "from": 15000,
+      "to": 900000
+    }
+  }
+}
