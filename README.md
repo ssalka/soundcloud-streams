@@ -78,7 +78,7 @@ The `filters` object is optional, as this was used in the example to filter out 
 
 ## History
 
-### 0.1 // 2015-11-12
+### 1.0 // 2015-11-12
 Initial release
 
 ## Credits
